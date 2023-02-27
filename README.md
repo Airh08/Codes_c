@@ -1,14 +1,17 @@
-## Install C/C++ compiler in Windows
-- Step 1: Search MinGW C compiler on the web.
-    To download the MinGW compiler, go to your favorite brower and search MinGW C compiler or click on the [sourceforge.net](https://sourceforge.net/projects/mingw/)
-    ![images_reference](/images_reference/step_1.jpg)
-- Step 2: Download MinGW
-    After clicking on the green-colored download button on the website, the MinGW etup file will start downloading.
-    ![images_reference](/images_reference/step_2.jpg)
-- Step 3: Locate the mingw-get-setup.exe File and Start Installation.
-    Locate the setup.exe file on your Downloads folder and double-click on it.
-    ![images_reference](/images_reference/step_3.jpg)
-    
-    After double-clicking on the setup file, MinGW Installation Manager Setup Tool will now open. It will show the information like version,
-    name, etc. Click on the Install button and proceed to start the installation.
-    ![images_reference](/images_reference/step_4.jpg)
+In this repository you will find examples of basic codes to complex codes in c.
+
+## Install C/C++ compiler
+- WINDOWS
+    - Follow this guide that is in [this link](https://www.scaler.com/topics/c/c-compiler-for-windows/) (compile from console)
+    - Follow this guide that is in [this link](https://www.geeksforgeeks.org/how-to-install-code-blocks-for-c-on-windows/) (with compiler)
+- LINUX
+    - Ubuntu: Follow this guide that is in [this link](https://linuxconfig.org/how-to-install-gcc-the-c-compiler-on-ubuntu-22-04-lts-jammy-jellyfish-linux) (compile from console)
+    - Debian: Follow this guide that is in [this link](https://linuxize.com/post/how-to-install-gcc-compiler-on-debian-10/)(compile from console)
+
+## How to compile the code from console
+* gcc -o path_output_file_name path_input_file_name(code)
+
+### Compilation example
+~~~
+ggc -o ./basic_examples/hello_c ./basic_examples/hello_c.c
+~~~
