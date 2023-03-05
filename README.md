@@ -13,5 +13,5 @@ In this repository you will find examples of basic codes to complex codes in c.
 
 ### Compilation example
 ~~~
-ggc -o ./basic_examples/hello_c ./basic_examples/hello_c.c
+gcc -o ./basic_examples/hello_c ./basic_examples/hello_c.c
 ~~~
